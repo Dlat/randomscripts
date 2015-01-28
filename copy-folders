@@ -1,0 +1,12 @@
+#!/bin/bash
+plist=$(cat $1 | tr "\n" " ")
+for i in $plist
+do
+dir1=`dirname "$i"`
+dir2=`basename "$i"`
+dir3=$i
+#mkdir $dir1/$dir2/Maildir
+#cd $i
+#pwd
+#mv
+done
